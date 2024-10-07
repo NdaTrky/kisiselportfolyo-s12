@@ -1,22 +1,24 @@
 import "./App.css";
 
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Skills from './components/Skills';
-import Profile from './components/Profile';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Header from './sections/Header';
+import Hero from './sections/Hero';
+import Skills from './sections/Skills';
+import Profile from './sections/Profile';
+import Projects from './sections/Projects';
+import Footer from './sections/Footer';
+
+import './index.css'; 
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Skills />
       <Profile />
       <Projects />
       <Footer />
-    </div>
+    </>
   );
 }
 
