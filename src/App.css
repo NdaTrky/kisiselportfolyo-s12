@@ -1,12 +1,24 @@
 .skills-container {
-  @apply flex justify-between items-center flex-wrap mb-20; 
+  @apply flex flex-wrap justify-between items-start mb-20;
 }
 
 .skills-card {
-  @apply  w-[450px] h-[100px] font-[ınter] text-xs font-normal p-6 ;
- 
+  @apply w-[100%] md:w-[450px] h-[100px] font-[Inter] text-xs font-normal p-6 mb-4; 
 }
 
 .skills-h2 {
-  @apply font-[Inter] text-[30px] font-medium leading-[50px] text-left text-[#4338CA];
+  @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-3
+}
+
+.profile-h1 {
+  @apply w-[150px] h-12 opacity-100 font-[Inter] text-5xl font-semibold mb-10
+}
+
+.profile-baslik {
+  @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-5 
+}
+
+
+.profile-p {
+  @apply font-[Inter] text-[18px] font-semibold 
 }

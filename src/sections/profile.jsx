@@ -1,28 +1,49 @@
 function Profile() {
-
   const profilData = {
     birthDate: "06/09/2001",
     city: "Antalya",
     education: "Ekonometri",
-    preferredRole: "Frontend, Uİ",
-    aboutMe: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia."
-  
-  
-    
-  }
-    return (
-        <div className="profile-container">
-          <h1 className="profile-h1">Profile</h1>
-          <div>
-            <h2>Profile</h2>
-            <p>Doğum Tarihi {profilData.birthDate}</p>
-            <p>İkamet Şehri {profilData.city} </p>
-            <p>Eğitim Durumu {profilData.education}</p>
-            <p> Tercih Ettiği Rol {profilData.preferredRole}</p>
-            </div>
-          <div><h2>About Me</h2></div>
+    preferredRole: "Frontend, UI",
+    aboutMe: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
+  };
+
+  return (
+    <div className="profile-container mx-[80px]">
+      <h1 className="profile-h1">Profile</h1>
+      <div className="profile-content flex">
+        <div className="profile-details flex-1">
+          <h2 className="profile-baslik">Profile</h2>
+
+          <div className="profile-p">
+            <span>Doğum Tarihi:</span>
+            <span className="profile-data">{profilData.birthDate}</span>
+          </div>
+
+          <div className="profile-p">
+            <span>İkamet Şehri:</span>
+            <span className="profile-data">{profilData.city}</span>
+          </div>
+
+          <div className="profile-p">
+            <span>Eğitim Durumu:</span>
+            <span className="profile-data">{profilData.education}</span>
+          </div>
+          
+          <div className="profile-p">
+            <span>Tercih Ettiği Rol:</span>
+            <span className="profile-data">{profilData.preferredRole}</span>
+          </div>
         </div>
-    );
-  }
-  
-  export default Profile;
+
+        <div className="about-me flex-1">
+          <h2 className="profile-baslik">About Me</h2>
+          <p className="w-[400px]">{profilData.aboutMe}</p>
+        </div>
+      </div>
+      <hr />
+    </div>
+    
+  );
+}
+
+export default Profile;

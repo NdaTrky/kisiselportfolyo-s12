@@ -1,9 +1,12 @@
-function cards() {
+function cards({title, text}) {
   return (
-    <div>
-      
+    <div className="skills-card">
+      <h2 className="skills-h2">{title}</h2>
+      <p>{text}</p>
     </div>
   )
 }
+
+
 
 export default cards;
