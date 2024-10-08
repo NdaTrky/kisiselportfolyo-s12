@@ -1,3 +1,12 @@
+.skills-container {
+  @apply flex justify-between items-center flex-wrap mb-20; 
+}
+
 .skills-card {
-  @apply inline-block p-8 border border-gray-300 rounded-lg shadow-md;
+  @apply  w-[450px] h-[100px] font-[ınter] text-xs font-normal p-6 ;
+ 
+}
+
+.skills-h2 {
+  @apply font-[Inter] text-[30px] font-medium leading-[50px] text-left text-[#4338CA];
 }

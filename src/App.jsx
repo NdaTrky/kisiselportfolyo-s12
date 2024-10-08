@@ -6,6 +6,7 @@ import Projects from './sections/Projects';
 import Footer from './sections/Footer';
 import useLocalStorage from './hooks/useLocalStorage';
 import './index.css';
+import "./App.css"
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", "light");
