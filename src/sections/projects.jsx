@@ -1,9 +1,9 @@
-function projects() {
+
+
+function Projects() {
   return (
-    <div>
-      
-    </div>
+    <div>Projects</div>
   )
 }
 
-export default projects
+export default Projects

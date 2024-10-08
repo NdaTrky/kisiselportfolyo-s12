@@ -1,4 +1,3 @@
 .skills-card {
-    @apply inline-block p-8 border border-gray-300 rounded-lg shadow-md;
-  }
-  
+  @apply inline-block p-8 border border-gray-300 rounded-lg shadow-md;
+}

@@ -1,11 +1,10 @@
 function Hero() {
   
-  
-  
+
   
   return (
 
-  
+
 
   <div className = "hero-container flex flex-col items-start mx-auto">
 

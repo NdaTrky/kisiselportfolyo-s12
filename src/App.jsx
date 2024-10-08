@@ -21,7 +21,7 @@ function App() {
           onClick={changeDarkMode}
           className={`px-3 py-3 rounded-sm mr-20 ${darkMode === "dark" ? " text-white" : " text-black"}`}
         >
-          {/* İkonun rengini temaya göre ayarlıyoruz */}
+         
           <i className={`gap-0.5 fa-solid ${darkMode === "dark" ? "fa-toggle-on text-white" : "fa-toggle-off text-black"}`} ></i>
           Dark Mode
         </button>
