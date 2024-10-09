@@ -3,6 +3,10 @@ function Header() {
     const hireMeButtonClick = () => {
         alert("Butona Tıklandı!");
     }
+
+    const handleSkillsClick = () => {
+        NavigationPreloadManager("/skills")
+    }
   
     return (
         <header>
@@ -15,7 +19,8 @@ function Header() {
                 </div>
   
                 <nav className="nav-container flex justify-end items-center font-serif text-lg font-medium gap-14 px-10 relative bottom-[9rem] ">
-                    <a href="#">Skills</a>
+                    <a onClick={handleSkillsClick} href="#">Skills</a>
+                    
                     <a href="#">Projects</a>
                     <button onClick={hireMeButtonClick} className="py-4 px-8 border rounded border-purple-500">
                         Hire Me

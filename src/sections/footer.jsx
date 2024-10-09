@@ -6,7 +6,7 @@ function Footer() {
       </h1>
 
      
-      <div className="mt-[5rem] ml-10">
+      <div className="mt-[5rem] m-10">
         <a
           className=" font-Inter font-medium text-left text-[#AF0C48]"
           href="mailto:nturkaaayyy@gmail.com?subject=Subject%20Here&body=Body%20Text%20Here"
