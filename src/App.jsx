@@ -6,9 +6,7 @@ import Projects from './sections/Projects';
 import Footer from './sections/Footer';
 import useLocalStorage from './hooks/useLocalStorage';
 import './index.css';
-import "./App.css"
-
-
+import "./App.css";
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", "light");
@@ -22,10 +20,14 @@ function App() {
       <nav className="w-full flex justify-end items-end p-4 dark:bg-black">
         <button
           onClick={changeDarkMode}
-          className={`px-3 py-3 rounded-sm mr-20 ${darkMode === "dark" ? " text-white" : " text-black"}`}
+          className={`flex px-6  rounded-sm mr-20 ${darkMode === "dark" ? "text-white" : "text-black"}`}
         >
-         
-          <i className={`gap-0.5 fa-solid ${darkMode === "dark" ? "fa-toggle-on text-white" : "fa-toggle-off text-black"}`} ></i>
+        
+          <img 
+            src={darkMode === "dark" ? "/light-switch.png" : "/dark-switch.png"} 
+            alt="Dark Mode Toggle" 
+            className="mr-7 mt-1 w-12 h-5 " 
+          />
           Dark Mode
         </button>
       </nav>

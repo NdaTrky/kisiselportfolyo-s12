@@ -6,6 +6,7 @@ function Profile() {
     preferredRole: "Frontend, UI",
     aboutMe: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! "
   };
+  
 
   return (
     <div className="profile-container mx-[80px]">
@@ -14,19 +15,19 @@ function Profile() {
         <div className="profile-details flex-1">
           <h2 className="profile-baslik">Profile</h2>
 
-          <div className="profile-p">
-            <span>Doğum Tarihi:</span>
+          <div className="profile-p profile-p">
+            <span >Doğum Tarihi:</span>
             <span className="profile-data">{profilData.birthDate}</span>
           </div>
 
           <div className="profile-p">
             <span>İkamet Şehri:</span>
-            <span className="profile-data">{profilData.city}</span>
+            <span  className="profile-data">{profilData.city}</span>
           </div>
 
           <div className="profile-p">
             <span>Eğitim Durumu:</span>
-            <span className="profile-data">{profilData.education}</span>
+            <span  className="profile-data">{profilData.education}</span>
           </div>
           
           <div className="profile-p">
@@ -37,8 +38,9 @@ function Profile() {
 
         <div className="about-me flex-1">
           <h2 className="profile-baslik">About Me</h2>
-          <p className="w-[400px]">{profilData.aboutMe}</p>
+          <p className="profile-p">{profilData.aboutMe}</p>
         </div>
+        
       </div>
       <hr />
     </div>

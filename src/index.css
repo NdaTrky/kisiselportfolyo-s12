@@ -3,27 +3,6 @@
 @tailwind utilities;
 
 
-.profile-p {
-    
-    font-weight: 600;
-    margin-bottom: 10px; 
-}
-
-.profile-data {
-    font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0.01em;
-text-align: left;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0.01em;
-text-align: left;
-
-}
 
 
 

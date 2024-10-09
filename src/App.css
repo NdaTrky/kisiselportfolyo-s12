@@ -20,5 +20,16 @@
 
 
 .profile-p {
-  @apply font-[Inter] text-[18px] font-semibold 
+  @apply w-[500px] font-semibold mb-2.5 
+}
+
+
+
+
+.profile-data {
+  @apply font-[Inter] text-[18px] font-normal leading-9 tracking-widest text-left
+}
+
+.project-title {
+  @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-5
 }
