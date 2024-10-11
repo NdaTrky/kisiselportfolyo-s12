@@ -14,12 +14,13 @@ function App() {
   const { language, changeLang } = useLanguage();
 
   const changeDarkMode = () => {
-    setDarkMode(darkMode === "light" ? "dark" : "light");
+  setDarkMode(!darkMode)
   };
 
   return (
-    <div className={`h-screen ${darkMode === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
-      <nav className="w-full flex justify-end items-end p-4 dark:bg-black">
+    <div className={darkMode && "dark" }>
+      <div className='dark:bg-black dark:text-white'>
+      <nav className="w-full flex justify-end items-end p-4 ">
         <button
           onClick={changeDarkMode}
           className={`flex px-6 text-[#777777] font-bold font-[Inter] text-[20px] rounded-sm mr-20 ${darkMode === "dark" ? "text-white" : "text-black"}`}
@@ -52,6 +53,7 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
+      </div>
     </div>
   );
 }
