@@ -10,7 +10,7 @@ import './index.css';
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useLocalStorage("darkMode", "light");
+  const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);
   const { language, changeLang } = useLanguage();
 
   const changeDarkMode = () => {
@@ -33,7 +33,7 @@ function App() {
         </button>
 
         <div>
-          <button 
+          <button  
             onClick={() => changeLang(language === 'tr' ? 'en' : 'tr')} 
             className="mx-2 relative right-[6rem]"
           >

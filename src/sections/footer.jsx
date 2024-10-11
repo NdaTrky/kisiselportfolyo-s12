@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="footer-container bg-[#F9F9F9] w-full h-[50%] mb-[40rem] relative bottom-20 py-[5%] px-[20%]">
-      <h1 className="font-[Inter] text-4xl font-semibold leading-[52.5px] text-left text-[#1F2937] w-[540px] h-[106px]">
+    <div className="footer-container bg-[#F9F9F9] h-[50%] mb-[40rem] relative bottom-20 py-[5%] px-[20%]">
+      <h1 className="font-[Inter] text-4xl font-semibold leading-[60px] text-left text-[#1F2937] w-[540px] ">
         Let’s work together on your next product.
       </h1>
 

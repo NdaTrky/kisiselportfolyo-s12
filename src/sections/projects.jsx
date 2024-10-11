@@ -33,10 +33,10 @@ function Projects() {
   ];
 
   return (
-    <div className="projects-container mx-[80px] mb-20">
-      <h1 className="projects-h1 w-full font-[Inter] text-5xl font-semibold leading-[48px] mt-5 pt-10 mb-20">Projects</h1>
+    <div className="projects-container mx-[14rem] mb-20">
+      <h1 className="projects-h1 w-full font-[Inter] text-5xl font-semibold leading-[48px] mt-[5rem] pt-[1rem] mb-20">Projects</h1>
 
-      <div className="projects-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-6">
+      <div className="projects-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-[6rem]">
         {projectData.map((project, index) => (
           <ProjectCard 
             key={index}

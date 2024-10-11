@@ -1,6 +1,7 @@
 function ProjectCard({ title, projectText, technologies, githubLink, siteLink, image }) {
   return (
     <div>
+      
       <img className="w-[400px] h-[300px]" src={image} alt={title} />
       <h2 className="font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-5 pl-5 pt-5">{title}</h2>
       <p>{projectText}</p>
