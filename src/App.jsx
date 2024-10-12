@@ -1,10 +1,10 @@
 import Intro from './sections/Intro';
-import Hero from './sections/Hero';
-import Skills from './sections/Skills';
-import Profile from './sections/Profile';
+import About from './sections/About';
+import Skill from './sections/Skill';
+import Profil from './sections/Profil';
 import { useLanguage } from "./contexts/LanguageProvider";
-import Projects from './sections/Projects';
-import Footer from './sections/Footer';
+import ProjectList from './sections/ProjectList';
+import Foot from './sections/Foot';
 import useLocalStorage from './hooks/useLocalStorage';
 import './index.css';
 import "./App.css";
@@ -48,11 +48,11 @@ function App() {
         </div>
       </nav>
       <Intro />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Footer />
+      <About />
+      <Skill />
+      <Profil />
+      <ProjectList />
+      <Foot />
       </div>
     </div>
   );

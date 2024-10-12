@@ -1,4 +1,4 @@
-function Hero() {
+function About() {
   return (
 
 <div className = "hero-container flex flex-col items-start mx-auto">
@@ -44,4 +44,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default About;

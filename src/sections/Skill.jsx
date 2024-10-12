@@ -1,6 +1,6 @@
-import Cards from '../components/Cards'; 
+import Card from '../components/Card'; 
 
-function Skills() {
+function Skill() {
   const skillsData = [
     { title: 'JavaScript', text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
     { title: 'React.Js', text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
@@ -16,7 +16,7 @@ function Skills() {
       <h1 className="opacity-100 mb-[3rem] w-full font-[Inter] text-5xl font-semibold leading-[48px] mt-[10rem]">Skills</h1>
 
       {skillsData.map((skill, index) => (
-        <Cards key={index} title={skill.title} text={skill.text} /> 
+        <Card key={index} title={skill.title} text={skill.text} /> 
       ))}
 
       <hr/>
@@ -24,4 +24,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Skill;

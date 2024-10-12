@@ -29,7 +29,7 @@ const projectData = [
   },
 ];
 
-function Projects() {
+function ProjectList() {
   
 
   return (
@@ -55,4 +55,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectList;

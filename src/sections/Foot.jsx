@@ -1,4 +1,4 @@
-function Footer() {
+function Foot() {
   return (
     <div className="footer-container relative bottom-20 px-[20%]">
       <h1 className="font-[Inter] text-4xl font-semibold leading-[60px] text-left text-[#1F2937] w-[540px] ">
@@ -32,4 +32,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Foot;

@@ -1,4 +1,4 @@
-function Profile() {
+function Profil() {
   const profilData = {
     birthDate: "06/09/2001",
     city: "Antalya",
@@ -48,4 +48,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Profil;

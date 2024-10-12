@@ -1,4 +1,4 @@
-function cards({title, text}) {
+function Card({title, text}) {
   return (
     <div className="skills-card">
       <h2 className="skills-h2">{title}</h2>
@@ -11,4 +11,4 @@ function cards({title, text}) {
 
 
 
-export default cards;
+export default Card;
