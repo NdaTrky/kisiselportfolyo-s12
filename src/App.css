@@ -1,6 +1,4 @@
-.skills-container {
-  @apply flex flex-wrap justify-between items-start pl-[8rem];
-}
+
 
 .skills-card {
   @apply md:w-[450px] font-[Inter] text-[22px] font-normal mb-[3rem] mt-[3rem]; 
@@ -10,9 +8,6 @@
   @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-[5px]
 }
 
-.profile-h1 {
-  @apply opacity-100 font-[Inter] text-5xl font-semibold mb-[3rem]
-}
 
 .profile-baslik {
   @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-[1rem]

@@ -8,9 +8,12 @@ function Skills() {
   ];
 
   return (
-    <div className="skills-container mx-[90px] mb-20">
+    <div className="flex flex-wrap justify-between items-start pl-[8rem] mx-[90px] mb-20">
+
+
       <div className="dark:bg-slate-900 dark:text-white"></div>
-      <h1 className="skills-h1 w-full font-[Inter] text-5xl font-semibold leading-[48px] mt-[10rem]">Skills</h1>
+      
+      <h1 className="opacity-100 mb-[3rem] w-full font-[Inter] text-5xl font-semibold leading-[48px] mt-[10rem]">Skills</h1>
 
       {skillsData.map((skill, index) => (
         <Cards key={index} title={skill.title} text={skill.text} /> 

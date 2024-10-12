@@ -10,7 +10,7 @@ function Profile() {
 
   return (
     <div className="profile-container mx-[14rem]">
-      <h1 className="profile-h1">Profile</h1>
+      <h1 className="opacity-100 font-[Inter] text-5xl font-semibold mb-[3rem]">Profile</h1>
       <div className="profile-content flex">
         <div className="profile-details flex-1">
           <h2 className="profile-baslik">Profile</h2>
