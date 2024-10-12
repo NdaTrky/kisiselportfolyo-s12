@@ -11,7 +11,7 @@ function Header() {
 
 
     return (
-    <Header>
+    <div>
         <div className="header-container">
 
             <div className="dark:bg-slate-900 dark:text-white"></div>
@@ -31,7 +31,7 @@ function Header() {
                    
         </nav>
         </div>
-        </Header>
+        </div>
     );
   }
   
