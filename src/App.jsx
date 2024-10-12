@@ -1,4 +1,4 @@
-import Header from './sections/Header';
+import Intro from './sections/Intro';
 import Hero from './sections/Hero';
 import Skills from './sections/Skills';
 import Profile from './sections/Profile';
@@ -47,7 +47,7 @@ function App() {
           </button>
         </div>
       </nav>
-      <Header />
+      <Intro />
       <Hero />
       <Skills />
       <Profile />

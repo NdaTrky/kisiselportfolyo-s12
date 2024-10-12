@@ -1,4 +1,4 @@
-function Header() {
+function Intro() {
   const hireMeButtonClick = () => {
     alert("Butona Tıklandı!");
   };
@@ -24,7 +24,7 @@ function Header() {
           </a>
         </div>
 
-        <nav className="flex justify-end items-center font-serif text-lg font-medium gap-14 px-10 relative bottom-[9rem] ">
+        <nav className="flex justify-end items-center text-lg font-medium gap-14 px-10 relative bottom-[9rem] ">
           <a onClick={handleSkillsClick} href="#">
             Skills
           </a>
@@ -41,4 +41,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Intro;
