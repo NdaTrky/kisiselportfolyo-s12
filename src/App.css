@@ -1,5 +1,3 @@
-
-
 .skills-card {
   @apply md:w-[450px] font-[Inter] text-[22px] font-normal mb-[3rem] mt-[3rem]; 
 }
