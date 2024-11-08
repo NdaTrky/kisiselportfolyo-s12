@@ -1,10 +1,9 @@
-const aboutMe = {
-  title: ["CREATIVE THINKER", "MINIMALISM LOVER"],
-  text: "I’m a full-stack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s shake hands with me.",
-  image: "/image/image.png"
-};
+import { useLanguage } from "../contexts/LanguageProvider";
+
 
 function About() {
+  const {texts} = useLanguage();
+  const aboutMe = texts.aboutMe;
   return (
     <div className="hero-container flex flex-col md:flex-row items-center mx-auto max-w-6xl px-4 py-10">
       <div className="md:w-1/2">

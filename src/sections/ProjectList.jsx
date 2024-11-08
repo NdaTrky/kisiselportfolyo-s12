@@ -1,33 +1,9 @@
 import ProjectCard from '../components/ProjectCard'; 
-
-const projectData = [
-  {
-    title: "Pizza Challenge",
-    projectText: "A platform designed for developers to connect with tech opportunities.",
-    technologies: ["react", "redux", "axios"],
-    githubLink: "https://github.com/NdaTrky/s8-challenge-pizza",
-    siteLink: "https://s8-challenge-pizza.vercel.app/",
-   image: "/image/pizza-project.png"
-  },
-  {
-    title: "Random Jokes",
-    projectText: "A random joke generator providing a daily dose of humor.",
-    technologies: ["react", "redux", "axios"],
-    githubLink: "https://github.com/NdaTrky/fsweb-s10g2-redux-filmler-solution",
-    siteLink: "https://fsweb-s10g2-redux-filmler-solution-steel.vercel.app/movies",
-    image: "/image/e-commerce.png"
-  },
-  {
-    title: "Journey",
-    projectText: "A travel planning app that helps you organize your next trip.",
-    technologies: ["react", "redux", "axios"],
-    githubLink: "https://github.com/NdaTrky/fsweb-s10g3-redux-watchlist-solution",
-    siteLink: "https://fsweb-s10g3-redux-watchlist-solution-pearl.vercel.app/",
-     image: "/image/cypress-testing-project.png"
-  },
-];
+import { useLanguage } from "../contexts/LanguageProvider";
 
 function ProjectList() {
+  const { texts } = useLanguage();
+  const projectData = texts.projectData; // Bu, dil verisinden gelen beceri verilerini alır
   return (
     <div className="projects-container mx-auto max-w-6xl px-4 mb-20">
       <h1 className="font-inter text-5xl font-semibold leading-tight mt-20 mb-10">Projects</h1>

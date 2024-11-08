@@ -1,11 +1,9 @@
 import Card from '../components/Card'; 
+import { useLanguage } from "../contexts/LanguageProvider"; // useLanguage'ı içe aktarın
 
 function Skill() {
-  const skillsData = [
-    { title: 'JavaScript', text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-    { title: 'React.Js', text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-    { title: 'Node.Js', text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-  ];
+  const { texts } = useLanguage();
+  const skillsData = texts.skillsData; // Bu, dil verisinden gelen beceri verilerini alır
 
   return (
     <div className="mx-auto max-w-6xl px-4 mb-20">
