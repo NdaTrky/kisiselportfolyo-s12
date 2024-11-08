@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className={darkMode && "dark"}>
-      <div className='dark:bg-black dark:text-white'>
+      <div className='dark:bg-gray-900 dark:text-white'> {/* Daha yumuşak bir arka plan rengi */}
         <nav className="w-full flex flex-col md:flex-row justify-between items-center p-4">
           <div className="flex items-center mb-2 md:mb-0">
             <button
