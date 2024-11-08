@@ -8,36 +8,33 @@ function Intro() {
   };
 
   return (
-    
-      <div>
-        <div>
-          <img
-            className="max-w-10 py-10 mx-20 relative bottom-[4rem]"
-            src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png"
-            alt="Profil Resmi"
-          />
-          <a
-            href="#"
-            className="ml-10 text-[#4338CA] font-[Inter] text-xl font-medium text-left"
-          >
-            _____Nida Türkay
-          </a>
-        </div>
-
-        <nav className="flex justify-end items-center text-lg font-medium gap-14 px-10 relative bottom-[9rem] ">
-          <a onClick={handleSkillsClick} href="#">
-            Skills
-          </a>
-
-          <a href="#">Projects</a>
-          <button
-            onClick={hireMeButtonClick}
-            className="py-4 px-8 border rounded border-purple-500"
-          >
-            Hire Me
-          </button>
-        </nav>
+    <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mb-4">
+        <img
+          className="max-w-xs py-10"
+          src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png"
+          alt="Profil Resmi"
+        />
+        <a
+          href="#"
+          className="text-primary-purple font-inter text-xl font-medium"
+        >
+          _____Nida Türkay
+        </a>
       </div>
+      <nav className="flex justify-center items-center text-lg font-medium gap-6 mb-4">
+        <a onClick={handleSkillsClick} href="#">
+          Skills
+        </a>
+        <a href="#">Projects</a>
+        <button
+          onClick={hireMeButtonClick}
+          className="py-2 px-4 border rounded border-primary-purple"
+        >
+          Hire Me
+        </button>
+      </nav>
+    </div>
   );
 }
 

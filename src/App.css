@@ -1,28 +1,8 @@
-.skills-card {
-  @apply md:w-[450px] font-[Inter] text-[22px] font-normal mb-[3rem] mt-[3rem]; 
+.title {
+    @apply font-inter text-5xl font-semibold mb-10
 }
 
-.skills-h2 {
-  @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-[5px]
+.purple-title {
+  @apply font-inter text-xl font-medium text-primary-purple mb-2; 
 }
 
-
-.profile-baslik {
-  @apply font-[Inter] text-[30px] font-medium leading-[28px] text-[#4338CA] pb-[1rem]
-}
-
-
-.profile-p {
-  @apply w-[500px]  font-semibold text-[1.2rem] mb-[0.5rem] 
-}
-
-
-
-
-.profile-data {
-  @apply font-[Inter] text-[18px] font-normal leading-9 tracking-widest ml-[0.5rem]
-}
-
-.project-title {
-  @apply font-[Inter] font-medium leading-[28px] text-[#4338CA]
-}
