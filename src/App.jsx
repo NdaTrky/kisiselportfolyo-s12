@@ -14,45 +14,47 @@ function App() {
   const { language, changeLang } = useLanguage();
 
   const changeDarkMode = () => {
-  setDarkMode(!darkMode)
+    setDarkMode(!darkMode);
   };
 
   return (
-    <div className={darkMode && "dark" }>
+    <div className={darkMode && "dark"}>
       <div className='dark:bg-black dark:text-white'>
-      <nav className="w-full flex justify-end items-end p-4 ">
-        <button
-          onClick={changeDarkMode}
-          className={`flex px-6 text-[#777777] font-bold font-[Inter] text-[20px] rounded-sm mr-20 ${darkMode === "dark" ? "text-white" : "text-black"}`}
-        >
-          <img 
-            src={darkMode === "dark" ? "/light-switch.png" : "/dark-switch.png"} 
-            alt="Dark Mode Toggle" 
-            className="mr-7 mt-1 w-12 h-5" 
-          />
-          Dark Mode |
-        </button>
+        <nav className="w-full flex flex-col md:flex-row justify-between items-center p-4">
+          <div className="flex items-center mb-2 md:mb-0">
+            <button
+              onClick={changeDarkMode}
+              className={`flex items-center px-4 py-2 text-[#777777] font-bold font-[Inter] text-[20px] rounded-sm ${darkMode ? "text-white" : "text-black"}`}
+            >
+              <img 
+                src={darkMode ? "/light-switch.png" : "/dark-switch.png"} 
+                alt="Dark Mode Toggle" 
+                className="mr-2 w-8 h-4" 
+              />
+              Dark Mode
+            </button>
+          </div>
 
-        <div>
-          <button  
-            onClick={() => changeLang(language === 'tr' ? 'en' : 'tr')} 
-            className="mx-2 relative right-[6rem]"
-          >
-            <span className="text-purple-500 font-bold font-[Inter] text-[20px]">
-              {language === 'tr' ? "INGILIZCE" : "TURKCE"}
-            </span>
-            <span className="text-[#777777] font-bold font-[Inter] text-[20px]">
-              {language === 'tr' ? "'YE GEC" : "'YE GEC"}
-            </span>
-          </button>
-        </div>
-      </nav>
-      <Intro />
-      <About />
-      <Skill />
-      <Profil />
-      <ProjectList />
-      <Foot />
+          <div>
+            <button  
+              onClick={() => changeLang(language === 'tr' ? 'en' : 'tr')} 
+              className="flex items-center px-4 py-2"
+            >
+              <span className="text-purple-500 font-bold font-[Inter] text-[20px]">
+                {language === 'tr' ? "INGILIZCE" : "TURKCE"}
+              </span>
+              <span className="text-[#777777] font-bold font-[Inter] text-[20px] ml-2">
+                {language === 'tr' ? "'YE GEC" : "'YE GEC"}
+              </span>
+            </button>
+          </div>
+        </nav>
+        <Intro />
+        <About />
+        <Skill />
+        <Profil />
+        <ProjectList />
+        <Foot />
       </div>
     </div>
   );

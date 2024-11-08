@@ -1,10 +1,8 @@
 const aboutMe = {
   title: ["CREATIVE THINKER", "MINIMALISM LOVER"],
   text: "I’m a full-stack developer. If you are looking for a Developer who can craft solid and scalable frontend products with great user experiences, let’s shake hands with me.",
-  image: "/image.png",
+  image: "/image/image.png"
 };
-
-
 
 function About() {
   return (
@@ -38,16 +36,16 @@ function About() {
           </a>
         </div>
       </div>
-      <div className="md:w-1/2 mt-10 md:mt-0">
-      <img
-  src={aboutMe.image}
-  alt="hero-img"
-  onError={(e) => {
-    console.error("Görsel yüklenemedi", e);
-    console.log("Tam yol:", aboutMe.image);
-  }}
-  className="w-full h-auto object-cover rounded-lg"
-/>
+      <div className="md:w-1/2 mt-10 md:mt-0 md:ml-10">
+        <img
+          src={aboutMe.image}
+          alt="hero-img"
+          onError={(e) => {
+            console.error("Görsel yüklenemedi", e);
+            console.log("Tam yol:", aboutMe.image);
+          }}
+          className="w-full md:w-3/4 h-auto object-cover rounded-lg" // Mobilde w-full, webde w-3/4
+        />
       </div>
     </div>
   );

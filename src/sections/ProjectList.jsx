@@ -7,7 +7,7 @@ const projectData = [
     technologies: ["react", "redux", "axios"],
     githubLink: "https://github.com/NdaTrky/s8-challenge-pizza",
     siteLink: "https://s8-challenge-pizza.vercel.app/",
-    image: "/pizza-project.png"
+   image: "/image/pizza-project.png"
   },
   {
     title: "Random Jokes",
@@ -15,7 +15,7 @@ const projectData = [
     technologies: ["react", "redux", "axios"],
     githubLink: "https://github.com/NdaTrky/fsweb-s10g2-redux-filmler-solution",
     siteLink: "https://fsweb-s10g2-redux-filmler-solution-steel.vercel.app/movies",
-    image: "/e-commerce.png"
+    image: "/image/e-commerce.png"
   },
   {
     title: "Journey",
@@ -23,7 +23,7 @@ const projectData = [
     technologies: ["react", "redux", "axios"],
     githubLink: "https://github.com/NdaTrky/fsweb-s10g3-redux-watchlist-solution",
     siteLink: "https://fsweb-s10g3-redux-watchlist-solution-pearl.vercel.app/",
-    image: "/cypress-testing-project.png"
+     image: "/image/cypress-testing-project.png"
   },
 ];
 

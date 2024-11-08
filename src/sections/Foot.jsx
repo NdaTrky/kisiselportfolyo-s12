@@ -9,14 +9,14 @@ function Foot() {
           className="font-inter font-medium text-left text-[#AF0C48]"
           href="mailto:nturkaaayyy@gmail.com?subject=Subject%20Here&body=Body%20Text%20Here"
         >
-          nidaturkaaayyy@gmail.com
+          nturkaaayyy@gmail.com
         </a>
       </div>
-      <div className="mt-10 flex justify-center space-x-4">
-        <a className="font-inter text-lg font-medium" href="#" target="_blank">
+      <div className="mt-10 flex flex-col md:flex-row md:justify-end space-x-0 md:space-x-4">
+        <a className="font-inter text-lg font-medium md:mr-4" href="#" target="_blank">
           Blog
         </a>
-        <a className="font-inter text-lg font-medium text-[#00AB6B]" href="https://github.com/NdaTrky" target="_blank">
+        <a className="font-inter text-lg font-medium text-[#00AB6B] md:mr-4" href="https://github.com/NdaTrky" target="_blank">
           Github
         </a>
         <a className="font-inter text-lg font-medium text-[#0077B5]" href="https://www.linkedin.com/in/nidaturkay/" target="_blank">
