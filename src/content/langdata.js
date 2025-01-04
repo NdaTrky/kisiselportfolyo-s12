@@ -16,12 +16,12 @@ export const languageData = {
     ],
     projectData: [
       {
-        title: "Pizza Challenge",
+        title: "Pizza Project",
         projectText: "Geliştiriciler için teknoloji fırsatlarını keşfetmeye yönelik bir platform.",
         technologies: ["react", "redux", "axios"],
-        githubLink: "https://github.com/NdaTrky/s8-challenge-pizza",
-        siteLink: "https://s8-challenge-pizza.vercel.app/",
-        image: "/image/pizza-project.png"
+        githubLink: "https://github.com/NdaTrky/pizza-project",
+        siteLink: "https://pizza-project-dun.vercel.app/",
+        image: "/pizza-project.png"
       },
       {
         title: "E-Ticaret",
