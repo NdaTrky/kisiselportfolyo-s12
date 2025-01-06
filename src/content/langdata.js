@@ -68,7 +68,7 @@ export const languageData = {
         technologies: ["react", "redux", "axios"],
         githubLink: "https://github.com/NdaTrky/s8-challenge-pizza",
         siteLink: "https://s8-challenge-pizza.vercel.app/",
-         image: "/image/pizza-project.png"
+         image: "/pizza-project.png"
       },
       {
         title: "E-Commerce",
