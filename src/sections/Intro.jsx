@@ -10,8 +10,8 @@ function Intro() {
         {/* Profil fotoğrafı */}
         <div className="flex flex-col items-start md:items-start md:mr-10"> 
           <img
-            className="w-32 h-32 rounded-full border-4 border-primary-purple"
-            src="https://media.licdn.com/dms/image/v2/D4D03AQEOLq2AvGFxVg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694278117384?e=1736380800&v=beta&t=xIdtujpD5wfENHVP-jXWppmwn55jggL98Wn87qdOy0Q"
+            className="w-32 h-32 rounded-full border-4 border-primary-purple object-cover"
+            src="/public/image/portfolyyo.png.jpg"
             alt="Profil Resmi"
           />
           <a
